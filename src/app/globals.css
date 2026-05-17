@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-[#050816] text-white antialiased;
+  background-image:
+    radial-gradient(circle at top, rgba(34,211,238,0.12), transparent 38%),
+    linear-gradient(180deg, #050816 0%, #071120 100%);
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-cyan-300 via-sky-400 to-blue-500 bg-clip-text text-transparent;
+}
+
+.card {
+  @apply rounded-2xl border border-white/10 bg-white/[0.04] shadow-[0_10px_40px_rgba(0,0,0,0.25)];
+}
