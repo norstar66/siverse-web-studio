@@ -15,7 +15,7 @@ export default function ContactPage() {
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-cyan-200/80">Contact</p>
           <h1 className="mt-4 text-5xl font-bold">Let&apos;s talk about your site</h1>
           <p className="mt-5 text-lg text-white/75">
-            If you need a clean website, a relaunch, or a faster path to getting something credible online, email us. Simple is fine.
+            Need a website or refresh? Simple is fine.
           </p>
 
           <div className="mt-8 card p-6">
@@ -30,14 +30,18 @@ export default function ContactPage() {
             <p className="text-sm uppercase tracking-[0.2em] text-cyan-200/75">Launch offer</p>
             <h2 className="mt-3 text-2xl font-semibold text-white">15% off for good-fit early clients</h2>
             <p className="mt-4 text-white/75">
-              We&apos;re offering a limited early-launch discount while we build the first public wave of SIVERSE Web Studio projects.
+              Launch offer: 15% off your first website project.
             </p>
+            <p className="mt-3 text-white/75">Based in the York / Red Lion area. Available for local and remote clients.</p>
           </div>
         </section>
 
         <section className="card p-6 md:p-8">
           <p className="text-sm uppercase tracking-[0.2em] text-cyan-200/75">What to send</p>
           <h2 className="mt-4 text-3xl font-bold">Use this quick intake</h2>
+          <p className="mt-4 text-white/75">
+            Send us a quick message with what your business does, whether you already have a website, and what you want customers to do when they find you.
+          </p>
           <ul className="mt-6 space-y-4 text-white/75">
             {intakeQuestions.map((question) => (
               <li key={question}>• {question}</li>

@@ -2,17 +2,17 @@ const packages = [
   {
     name: 'Starter Site',
     price: '$600',
-    description: 'A clean one-page website for a small business or solo professional who needs a credible online presence fast.',
+    description: 'A clean one-page website for small businesses that need a professional online presence fast.',
   },
   {
     name: 'Standard Site',
     price: '$1,200',
-    description: 'A 3–5 page website for businesses ready for a fuller presence with clearer structure and stronger trust.',
+    description: 'A 3–5 page website for businesses that need room for services, menus, galleries, FAQs, or booking links.',
   },
   {
     name: 'Website Refresh',
     price: '$300+',
-    description: 'For sites that already exist but feel outdated, confusing, slow, or rough on mobile.',
+    description: 'A focused cleanup for an outdated website: better layout, clearer copy, stronger calls to action, and mobile improvements.',
   },
 ]
 
@@ -43,32 +43,25 @@ export default function Home() {
             Web Advancement for the Age of Infinite Business
           </p>
           <h1 className="mt-4 text-5xl font-bold leading-tight md:text-6xl">
-            Simple websites. Fast launches. <span className="gradient-text">Local-business friendly.</span>
+            Fast, professional websites for <span className="gradient-text">small businesses.</span>
           </h1>
           <div className="mt-6 max-w-2xl space-y-4 text-lg text-white/80">
             <p>
-              SIVERSE Web Studio™ builds clean, fast websites for small businesses that need to look professional online without getting buried in tech headaches.
+              SIVERSE Web Studio™ builds clean, mobile-friendly websites for restaurants, creators, service providers, and local shops that need to look credible online without tech headaches.
             </p>
-            <p>
-              No giant agency theater. No endless process. Just clear offers, fast deployment, and sites that help people contact you, trust you, and buy from you.
-            </p>
+            <p>Based in the York / Red Lion area. Available for local and remote clients.</p>
           </div>
 
           <div className="mt-8 flex flex-wrap gap-3">
-            <a href="/packages" className="rounded-xl bg-cyan-400 px-5 py-3 font-semibold text-slate-950 transition hover:bg-cyan-300">
-              See packages
+            <a href="/contact" className="rounded-xl bg-cyan-400 px-5 py-3 font-semibold text-slate-950 transition hover:bg-cyan-300">
+              Claim 15% Off Your First Website
             </a>
-            <a href="/contact" className="rounded-xl border border-white/15 px-5 py-3 font-medium transition hover:bg-white/10">
-              Get a quote
+            <a href="/packages" className="rounded-xl border border-white/15 px-5 py-3 font-medium transition hover:bg-white/10">
+              See Website Packages
             </a>
             <a href="https://siverse-labs.com" className="rounded-xl border border-white/15 px-5 py-3 font-medium transition hover:bg-white/10">
               Visit SIVERSE Labs
             </a>
-          </div>
-
-          <div className="mt-8 card p-5 text-sm text-white/75">
-            <p className="font-semibold text-white">Best first win:</p>
-            <p className="mt-2">Sell one $600 starter site. Then reuse the system, tighten delivery, and attach a care plan.</p>
           </div>
         </div>
 
@@ -109,7 +102,7 @@ export default function Home() {
         <p className="text-sm font-semibold uppercase tracking-[0.3em] text-cyan-200/80">Launch offer</p>
         <h2 className="mt-4 text-3xl font-bold">15% off for early launch clients</h2>
         <p className="mt-4 max-w-3xl text-white/75">
-          We&apos;re reopening client work with a tight, practical scope. Early clients who are a good fit may qualify for a 15% launch offer while we assemble the first public wave of studio examples.
+          Launch offer: 15% off your first website project. Good-fit early clients can lock in a discount while we build the first public wave of studio examples.
         </p>
       </section>
 
@@ -129,15 +122,15 @@ export default function Home() {
 
         <div className="card p-6 md:p-8">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-cyan-200/80">Start here</p>
-          <h2 className="mt-4 text-3xl font-bold">Need a site or a relaunch?</h2>
+          <h2 className="mt-4 text-3xl font-bold">Need a website or refresh?</h2>
           <p className="mt-4 text-white/75">
-            Email <a className="underline decoration-white/30 underline-offset-4 hover:decoration-white/60" href="mailto:contact@siverse-labs.com">contact@siverse-labs.com</a>
+            Send us a quick message with what your business does, whether you already have a website, and what you want customers to do when they find you.
           </p>
           <p className="mt-4 text-white/75">
-            Best first message: what you do, what you need, whether you already have a site, and how fast you want it live.
+            Launch offer: 15% off your first website project. Email <a className="underline decoration-white/30 underline-offset-4 hover:decoration-white/60" href="mailto:contact@siverse-labs.com">contact@siverse-labs.com</a>
           </p>
           <a href="/contact" className="mt-6 inline-flex rounded-xl border border-white/15 px-5 py-3 font-medium transition hover:bg-white/10">
-            Open contact guide
+            Book a Free Website Check
           </a>
         </div>
       </section>

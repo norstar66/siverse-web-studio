@@ -30,9 +30,9 @@ export default function PackagesPage() {
     <main className="mx-auto max-w-6xl px-6 py-14 md:py-20">
       <div className="max-w-3xl">
         <p className="text-sm font-semibold uppercase tracking-[0.3em] text-cyan-200/80">Packages</p>
-        <h1 className="mt-4 text-5xl font-bold">Simple website packages with sane scope</h1>
+        <h1 className="mt-4 text-5xl font-bold">Simple website packages people can actually buy</h1>
         <p className="mt-5 text-lg text-white/75">
-          The goal is not to sell confusing bundles. The goal is to help people buy the smallest useful version, get it live, and improve from there.
+          Clear scope. Clear pricing. Clear next step.
         </p>
       </div>
 
@@ -57,7 +57,7 @@ export default function PackagesPage() {
         <p className="text-sm font-semibold uppercase tracking-[0.3em] text-cyan-200/80">Launch offer</p>
         <h2 className="mt-4 text-3xl font-bold">15% off for early launch clients</h2>
         <p className="mt-4 max-w-3xl text-white/75">
-          We&apos;re building this studio in public and reopening client work with a tight, practical scope. Early clients who are a good fit may qualify for a 15% launch offer while we finalize the first wave of portfolio examples.
+          Claim 15% off your first website project while we finalize the first public wave of studio examples.
         </p>
       </section>
     </main>

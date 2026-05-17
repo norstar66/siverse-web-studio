@@ -6,7 +6,7 @@ export default function SiteFooter() {
       <div className="mx-auto flex max-w-6xl flex-col gap-3 px-6 md:flex-row md:items-center md:justify-between">
         <div>
           <p>© 2026 SIVERSE Labs™ — Advancement for the Age of Infinite™</p>
-          <p className="mt-1">A SIVERSE Labs mission</p>
+          <p className="mt-1">Web Advancement for the Age of Infinite Business</p>
         </div>
         <div className="flex flex-wrap gap-4">
           <Link href="/packages" className="hover:text-white">Packages</Link>
