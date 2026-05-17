@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 const packages = [
   {
     name: 'Starter Site',
@@ -36,16 +38,22 @@ const processSteps = [
 
 export default function Home() {
   return (
-    <main className="mx-auto max-w-6xl px-6 py-14 md:py-20">
+    <main className="mx-auto max-w-6xl px-6 py-16">
       <section className="grid gap-10 md:grid-cols-[1.15fr,0.85fr] md:items-center">
         <div>
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-cyan-200/80">
-            Web Advancement for the Age of Infinite Business
+            A SIVERSE Labs mission
           </p>
           <h1 className="mt-4 text-5xl font-bold leading-tight md:text-6xl">
-            Fast, professional websites for <span className="gradient-text">small businesses.</span>
+            <span className="gradient-text">SIVERSE Web Studio™</span>
           </h1>
-          <div className="mt-6 max-w-2xl space-y-4 text-lg text-white/80">
+          <p className="mt-4 max-w-3xl text-2xl font-semibold leading-tight text-white md:text-4xl">
+            Web Advancement for the Age of Infinite Business
+          </p>
+          <div className="mt-5 max-w-2xl space-y-4 text-lg text-white/80">
+            <p className="text-xl font-medium text-white">
+              Fast, professional websites for small businesses.
+            </p>
             <p>
               SIVERSE Web Studio™ builds clean, mobile-friendly websites for restaurants, creators, service providers, and local shops that need to look credible online without tech headaches.
             </p>
@@ -65,18 +73,30 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="card p-6 md:p-8">
-          <p className="text-sm uppercase tracking-[0.2em] text-cyan-200/75">Good fit</p>
-          <h2 className="mt-3 text-2xl font-semibold">Who we build for</h2>
-          <ul className="mt-5 grid gap-3 text-white/75 sm:grid-cols-2">
-            {niches.map((niche) => (
-              <li key={niche} className="rounded-xl border border-white/10 bg-black/20 px-4 py-3">{niche}</li>
-            ))}
-          </ul>
+        <div className="relative mx-auto h-[280px] w-full max-w-[420px] md:h-[420px]">
+          <Image
+            src="/branding/CLEARbgLogo.png"
+            alt="SIVERSE Web Studio logo"
+            fill
+            unoptimized
+            sizes="(max-width: 768px) 100vw, 420px"
+            priority
+            style={{ objectFit: 'contain' }}
+          />
         </div>
       </section>
 
-      <section className="mt-20">
+      <section className="mt-8 card p-6 md:p-8">
+        <p className="text-sm uppercase tracking-[0.2em] text-cyan-200/75">Good fit</p>
+        <h2 className="mt-3 text-2xl font-semibold">Who we build for</h2>
+        <ul className="mt-5 grid gap-3 text-white/75 sm:grid-cols-2 lg:grid-cols-4">
+          {niches.map((niche) => (
+            <li key={niche} className="rounded-xl border border-white/10 bg-black/20 px-4 py-3">{niche}</li>
+          ))}
+        </ul>
+      </section>
+
+      <section className="mt-16">
         <div className="max-w-3xl">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-cyan-200/80">Packages</p>
           <h2 className="mt-4 text-4xl font-bold">Simple offers people can actually buy</h2>
@@ -98,7 +118,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mt-12 card p-6 md:p-8">
+      <section className="mt-8 card p-6 md:p-8">
         <p className="text-sm font-semibold uppercase tracking-[0.3em] text-cyan-200/80">Launch offer</p>
         <h2 className="mt-4 text-3xl font-bold">15% off for early launch clients</h2>
         <p className="mt-4 max-w-3xl text-white/75">
@@ -106,7 +126,7 @@ export default function Home() {
         </p>
       </section>
 
-      <section className="mt-20 grid gap-6 lg:grid-cols-[1fr,0.9fr]">
+      <section className="mt-16 grid gap-6 lg:grid-cols-[1fr,0.9fr]">
         <div className="card p-6 md:p-8">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-cyan-200/80">Process</p>
           <h2 className="mt-4 text-3xl font-bold">Build small. Sell clearly. Deploy fast.</h2>

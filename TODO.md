@@ -26,10 +26,10 @@ Guiding phrase:
 - [x] Decide subdomain: `studio.siverse-labs.com`
 - [ ] Deploy to Vercel
 - [ ] Add subdomain in Vercel project settings
-- [ ] Add DNS CNAME record for `studio` once Vercel provides target
-- [ ] Add favicon / branding
-- [ ] ensure consistant branding with main siverse-labs.com site.
-- [ ] Add link to main siverse-labs.com site.
+- [x] Add DNS CNAME record for `studio` once Vercel provides target
+- [x] Add favicon / branding
+- [x] ensure consistant branding with main siverse-labs.com site.
+- [x] Add link to main siverse-labs.com site.
 
 ## Locked decisions
 - Public name: **SIVERSE Web Studio**
